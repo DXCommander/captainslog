@@ -1,21 +1,49 @@
-# captainslog
-FREE TO THE WORLD FROM CALLUM / DX COMMANDER
+# CaptainsLog
+
+**FREE TO THE WORLD FROM CALLUM / DX COMMANDER**  
 Lightweight Net Controller Logging Software
-#
-Runs anywhere on Windows machine, even very old and slow laptops
-No dependancies - will run on USB stick
-Written in PYTHON - can run on Mac but would need some lines removed regarding firing up NOTEPAD after ADIF export
-No CAT software, just manually enter your CALLSIGN, CURENT FREQ and MODE
-Add callers using space bar or tab between fields on data input
-Right-Click any record to edit call
-Editing call, you may delete / cancel / save
-Running a NET? Just right-click a call to make callers "Leave"
-The "Leave" makes row go lighter grey (visual clue only)
-Database is stored in the directory /logs under where you started the software
-Database will be called current_log.json. It is a text file
-Each time you add a record, the database will be updated
-There is no SAVE button because the database is dynamic
-You may also write-click a record and export *everything* to ADIF
-If the current_log.json exists and you start the program, you will be asked if you want to load it
-Else, it will be overwritten the next time you make a QSO
-Have fun, Callum 30th May 2024
+
+---
+
+### 🖥️ Platform
+- Runs anywhere on a Windows machine — even ancient laptops
+- No dependencies — fully portable (can run from a USB stick)
+- Written in Python — can run on Mac/Linux (remove Notepad export lines)
+
+---
+
+### 🎙️ Net Control Features
+- Manual entry: just fill in `My Callsign`, `Current Freq`, and `Mode`
+- Add QSOs using `Space` or `Tab` between fields
+- Right-click a row to:
+  - Edit, Delete, or Cancel
+  - Mark a station as **LEFT** or **Rejoined**
+- "Left" QSOs are shown in **light grey** for visual tracking
+
+---
+
+### 💾 Logging & Data Storage
+- Logs stored as `current_log.json` in `/logs/` under your run directory
+- It's just a readable text file in JSON format
+- The log is **re-written in full** after every Add / Edit / Delete
+- Optimized for up to ~10,000 QSOs per session
+
+---
+
+### 📤 ADIF Export
+- Right-click any record → **Export to ADIF**
+- Output is saved in the same `/logs/` directory
+- You’ll be prompted to open it in Notepad (Windows only)
+
+---
+
+### 🧠 Notes
+- There is no "Save" button — the log is always live
+- If `current_log.json` exists, you will be prompted to load it on startup
+- If you choose not to load it, the next logged QSO will overwrite it
+
+---
+
+### 🎉 Enjoy!
+Made with care and curiosity by **Callum, M0MCX**  
+_30th May 2024_

@@ -1,4 +1,4 @@
-# CaptainsLog
+# CaptainsLog 0.604 LATEST
 
 **FREE TO THE WORLD FROM CALLUM / DX COMMANDER**  
 Lightweight Net Controller Logging Software  

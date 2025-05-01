@@ -2,6 +2,7 @@
 
 **FREE TO THE WORLD FROM CALLUM / DX COMMANDER**  
 Lightweight Net Controller Logging Software  
+For General Logging or Net Controllers
 Download link at the bottom of this page  
 https://github.com/DXCommander/captainslog/releases/tag/V001
 
